@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=freenetconfd-plugin-dt-fw
-PKG_VERSION:=2015-10-29
+PKG_VERSION:=2015-11-12
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 PKG_LICENSE:=Apache-2.0
@@ -17,7 +17,7 @@ PKG_MAINTAINER:=Mislav Novakovic <mislav.novakovic@sartura.hr>
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/freenetconf/freenetconfd-plugin-dt-fw.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=243dca2ae1bb4c2eab11c2c53198ae92fd556989
+PKG_SOURCE_VERSION:=c0588e6edda246a5a2ffcbacf01ae9954c69ed06
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 
 PKG_BUILD_PARALLEL:=1
