@@ -17,7 +17,7 @@ PKG_MAINTAINER:=Mislav Novakovic <mislav.novakovic@sartura.hr>
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/freenetconf/freenetconfd-plugin-dt-network.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=c83412a660fb3a70bf1d8be5f2a7b8493a2b7682
+PKG_SOURCE_VERSION:=d8b66c9bb78fb6a1abb1fbe388116c60662636d4
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 
 PKG_BUILD_PARALLEL:=1
