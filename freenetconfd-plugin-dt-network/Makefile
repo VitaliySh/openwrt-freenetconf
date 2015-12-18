@@ -30,7 +30,7 @@ define Package/freenetconfd-plugin-dt-network
   CATEGORY:=Utilities
   TITLE:=freenetconfd firmware uprade plugin
   URL:=https://github.com/freenetconf/freenetconfd-plugin-dt-network
-  DEPENDS:=+freenetconfd +libblobmsg-json +uci +libpthread
+  DEPENDS:=+freenetconfd +libblobmsg-json +uci +libpthread +rpcd
 endef
 
 define Package/freenetconfd-plugin-dt-network/install
